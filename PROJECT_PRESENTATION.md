@@ -58,7 +58,7 @@ This is a rough start to the dates, this is the maximum value and minimum value 
 month       number of days
 ---------------------------
 January     31 days
-February    28 days
+February    29 days
 March       31 days
 April       30 days
 May         31 days
