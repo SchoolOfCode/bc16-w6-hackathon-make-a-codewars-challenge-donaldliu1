@@ -24,10 +24,7 @@ Code for the user to attempt the Kata
 // Aquarius     January 20th - February 18th
 // Pisces       February 19th - March 20th
 
-export function starSignA(ddmm){
-    if (ddmm > 100){
-        return "Aries"
-    }
+export function starSign(ddmm){
 };
 ```
 
