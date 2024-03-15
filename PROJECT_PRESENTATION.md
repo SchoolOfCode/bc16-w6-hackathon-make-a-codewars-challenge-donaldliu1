@@ -4,7 +4,7 @@ General overview of my plan for the Kata. The goal of the Kata is for the user t
 
 Code for the user to attempt the Kata
 ```
-// GOAL create a function which takes in the input for DDMM (date month) and returns the appropriate star sign (if the date starts with 0 ignore the 0 so January 1st will be 101)
+// GOAL: create a function which takes in the input for MMDD (month) and returns the appropriate star sign (if the date starts with 0 ignore the 0 so January 1st will be 101)
 // if the date or month is invalid it should return error!
 
 // use the following table below!
@@ -23,11 +23,23 @@ Code for the user to attempt the Kata
 // Capricorn    December 22nd - January 19th
 // Aquarius     January 20th - February 18th
 // Pisces       February 19th - March 20th
+//
+// For more help the following are the months and their maximum number of days!
+// January     31 days
+// February    29 days
+// March       31 days
+// April       30 days
+// May         31 days
+// June        30 days
+// July        31 days
+// August      31 days
+// September   30 days
+// October     31 days
+// November    30 days
+// December    31 days
 
-export function starSignA(ddmm){
-    if (ddmm > 100){
-        return "Aries"
-    }
+export function starSign(mmdd){
+    // enter your code here
 };
 ```
 
