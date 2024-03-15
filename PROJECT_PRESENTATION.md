@@ -152,3 +152,6 @@ Using the table above I will start creating boundary tests:
   - Valid Test Cases: 219, 220, 228, 229, 301, 302, 319, 320
   - Invalid (Max Value +1): 230, 321
 
+**HOWEVER** after creating the test, I have to revisit the plan as some of the invalid minimum and maximum value (example: 218, 321) return other months but the test expected an error, instead I have opted to remove those as they are featured somewhere else in the test (example Aquarius tests 218 and Aries tests 321)
+
+I included 2 other tests which are "March21st" which should return an error and also "0101" which should also return an error.

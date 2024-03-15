@@ -1,4 +1,4 @@
-// GOAL: create a function which takes in the input for DDMM (date month) and returns the appropriate star sign (if the date starts with 0 ignore the 0 so January 1st will be 101)
+// GOAL: create a function which takes in the input for MMDD (month) and returns the appropriate star sign (if the date starts with 0 ignore the 0 so January 1st will be 101)
 // if the date or month is invalid it should return error!
 
 // use the following table below!
@@ -18,6 +18,6 @@
 // Aquarius     January 20th - February 18th
 // Pisces       February 19th - March 20th
 
-export function starSign(ddmm){
+export function starSign(mmdd){
     // enter your code here
 };
