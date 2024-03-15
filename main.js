@@ -17,6 +17,20 @@
 // Capricorn    December 22nd - January 19th
 // Aquarius     January 20th - February 18th
 // Pisces       February 19th - March 20th
+//
+// For more help the following are the months and their maximum number of days!
+// January     31 days
+// February    29 days
+// March       31 days
+// April       30 days
+// May         31 days
+// June        30 days
+// July        31 days
+// August      31 days
+// September   30 days
+// October     31 days
+// November    30 days
+// December    31 days
 
 export function starSign(mmdd){
     // enter your code here
